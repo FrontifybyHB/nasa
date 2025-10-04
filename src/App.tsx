@@ -1,14 +1,14 @@
-import { Header } from "../components/header"
-import { LeftSidebar } from "./components/left-sidebar"
+// import { Header } from "../components/header"
+// import { LeftSidebar } from "./components/left-sidebar"
 import { MainContent } from "../components/main-content"
 import { RightSidebar } from "../components/right-sidebar"
 
 function App() {
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
+      {/* <Header /> */}
       <div className="flex flex-1">
-        <LeftSidebar />
+        {/* <LeftSidebar /> */}
         <MainContent />
         <RightSidebar />
       </div>
